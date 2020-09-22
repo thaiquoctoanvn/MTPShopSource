@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+	text-align: right;
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color:#f5f5f5;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+.list-product-title{
+	width: 100%;
+	height: 2.6rem;
+	color: #a0a0a0;	
+	font-size: 1.7em;
+	margin-top: 1.2em;
+}	
+.custom_col{
+	box-sizing: border-box;
+	height: 21rem;
+	margin-bottom: 1em;
+}
+.custom_group{
+	width: 100%;
+	margin: 50px auto;
+}
+.custom_footer{
+	height: 70px;
+	line-height: 70px;
+	text-align: center;
+	background: #f4f4f4;
+	color: #a0a0a0;
+}
+.custom_img{
+	object-fit: cover;
+	max-height: 260px;
+}
+.custom_rowmt4{
+	margin: 50 auto;
+	padding: 0 15px;
+}
+.custom_form_group{
+	width: 80%;
+	height: 40px;
+	line-height: 40px;
+}
+.custom_tieude{
+	margin-bottom: 1.6em;
+}
+.custom_col_thongtin{
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
+}
+.custom_col_anh{
+	margin-top: 1.6em;
+	margin-bottom: 1.6em;
+	text-align: center;
+}
+.custom_button{
+	text-align: center;
+	margin: 1.6em auto;
+	width: 8em;
+}
+.custom_link{
+	text-align: right;
+}
+.custom_row_button{
+	margin-top: 15px;
+	margin-bottom: 30px;
+}

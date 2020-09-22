@@ -1,0 +1,106 @@
+@font-face {
+	font-family: SourceSansPro-Regular;
+	src: url('../fonts/source-sans-pro/SourceSansPro-Regular.ttf'); 
+  }
+*{
+	margin: 0;
+	padding: 0;
+	font-family: SourceSansPro-Regular;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+body{
+	padding-top: 70px !important;
+}
+.custom-font-menu{
+	font-size: medium;
+}
+.hotline-text{
+	font-size: small;
+	background: #F8F9FAFF;
+	text-align: right;
+	padding-right: 15px;
+	padding-left: 15px;
+	
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+	
+}
+.dropdown-content{
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background-color:#fff;
+	border: 0.5px solid #F4F1FAFF;
+}
+.dropdown-item:hover{
+	transition: all 0.5s;
+	background-color: #d1d1d1;
+}
+.dropdown:hover .dropdown-content{
+	display: block;
+	
+}
+.dropdown:focus .dropdown-content{
+	display: block;
+	
+}
+.custom-slider{
+	margin-top: 0 !important;
+	width: 100% !important;
+	/* max-width: 1080px !important; */
+	
+
+}
+
+.custom-width {
+	max-width: 30% !important;
+	margin-right: 16px !important;
+}
+/* CHỈNH MENU DROPDOWN */
+.custom-minh {
+	border-bottom: 1px solod #999999;
+}
+
+.custom-minh:last-child {
+	border-bottom: none;
+}
+
+/* DÒNG KẺ */
+li.nav-item {
+	position: relative;
+}
+
+li.nav-item.active::after {
+	opacity: 1;
+	width: 90%;
+}
+
+li.nav-item:hover::after {
+	opacity: 1;
+	width: 90%;
+}
+
+li.nav-item::after {
+    content: '';
+    background-color: #000;
+    height: 1px;
+    width: 0;
+    position: absolute;
+    left: 5%;
+    bottom: 0;
+	opacity: 0;
+	-webkit-transition: width 0.5s ease-in-out;
+    -moz-transition: width 0.5s ease-in-out;
+    transition: width 0.5s ease-in-out;
+}
+.disable{
+	  pointer-events: none;
+   cursor: default;
+}
